@@ -31,8 +31,8 @@ Description             : While I enjoy the vanilla gameplay, the pistol is
                           sound, to differentiate with the chaingun
                           whose power is unchanged.
 
-                          - The ZombieMan's gunshot also uses the
-                          Doom3 one to reflect its upgraded power.
+                          - The ZombieMan's gunshot now has its own
+			  sound effect to reflect its upgraded power.
                           The change of sounds also serves as a
                           reminder that the mod is correctly loaded,
                           because the power upgrades are otherwise too
@@ -45,9 +45,11 @@ Description             : While I enjoy the vanilla gameplay, the pistol is
                           - SpiderMastermind's super chaingun uses Doom3
                           chaingun sound effect.
 
-Additional Credits to   : TerryWADArchive for making the d3snds mod where
-                          I took the Doom3 sounds from.
+Additional Credits to   : TerryWADArchive for making the d3snds mod which
+                          is where the Doom3 sounds are from.
 
+                          soundbible.com for the "Gun Fire" sample which
+                          becomes ZombieMan's new gunshot sound.
 ===========================================================================
 * What is included *
 
