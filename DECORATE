@@ -1,0 +1,56 @@
+// Note to myself:
+// The "PISG A 4"-like things are for timing, where PISG is the sprite name,
+// "A" is the frame of the sprite, and "4" is the number of tics. 
+
+ACTOR PowerPistol : Pistol replaces Pistol
+{
+   states
+   {
+      Fire:
+	PISG A 4
+
+	// Based on the original equivalent of A_FirePistol,
+	// with damage increased from 5 to 7.
+	// Numeric arguments: spread_horz, spread_vert, numbullets, damage
+	// A_FireBullets (5.6, 0, 1, 5, "BulletPuff")
+	PISG B 0 A_FireBullets (5.6, 0, 1, 7, "BulletPuff")
+	PISG B 0 A_PlaySound ("weapons/ppstol", CHAN_WEAPON)
+        PISG B 6 A_GunFlash
+
+        PISG C 4
+	PISG B 5 A_ReFire
+	Goto Ready
+   }
+}
+
+// This is necessary for using PowerPistol in lieu of the stock pistol
+ACTOR SolarPlayer : DoomPlayer
+{
+   Player.StartItem "PowerPistol"
+   Player.StartItem "Fist"
+   Player.StartItem "Clip", 50
+   Player.WeaponSlot 1, Fist, Chainsaw
+   Player.WeaponSlot 2, PowerPistol
+   Player.WeaponSlot 3, Shotgun, SuperShotgun
+   Player.WeaponSlot 4, Chaingun
+   Player.WeaponSlot 5, RocketLauncher
+   Player.WeaponSlot 6, PlasmaRifle
+   Player.WeaponSlot 7, BFG9000
+}
+
+ACTOR PowerZombieMan : ZombieMan replaces ZombieMan
+{
+  AttackSound "grunt/pattack"
+  states
+  {
+    Missile:
+      POSS E 10 A_FaceTarget
+
+      // Based on the original equivalent of A_PosAttack
+      // with damage increased from [3, 15] to [3, 21], and the pistol sound
+      POSS F 8 A_CustomBulletAttack (22.5, 0, 1, random(1,7) * 3, "BulletPuff", 0, CBAF_NORANDOM)
+
+      POSS E 8
+      Goto See
+  }
+}

@@ -1,0 +1,96 @@
+===========================================================================
+Advanced engine needed  : ZDoom compatible
+Primary purpose         : No levels included
+===========================================================================
+Title                   : Power Pistol
+Filename                : powerpistol-lite.pk3 powerpistol-full.pk3
+Release date            :
+Author                  : zmodder
+Email Address           : zmodder@outlook.com
+Description             : While I enjoy the vanilla gameplay, the pistol is
+                          too weak to have a reason to use after obtaining the
+                          chaingun.  I made this mod to make the pistol
+                          more useful than a starting weapon.
+
+                          powerpistol-lite.pk3 includes the following
+                          changes:
+
+                          - The pistol deals 40% more damage per
+                          bullet.  This doesn't only make it more
+                          powerful, but also provides significantly
+                          higher ammo efficiency than chaingun.
+
+                          - ZombieMan also sees an upgrade of more
+                          damage (33% in mean value, 40% in max
+                          value), making it more of a real threat.
+
+                          powerpistol-full.pk3 includes a few sound
+                          changes in addition to the above changes:
+
+                          - The pistol now uses the Doom3 pistol
+                          sound, to differentiate with the chaingun
+                          whose power is unchanged.
+
+                          - The ZombieMan's gunshot also uses the
+                          Doom3 one to reflect its upgraded power.
+                          The change of sounds also serves as a
+                          reminder that the mod is correctly loaded,
+                          because the power upgrades are otherwise too
+                          subtle to notice.
+
+                          - ChaingunGuy's gunshot sound is now the
+                          same as player's chaingun, as they deal the
+                          same damage per bullet.
+
+                          - SpiderMastermind's super chaingun uses Doom3
+                          chaingun sound effect.
+
+Additional Credits to   : TerryWADArchive for making the d3snds mod where
+                          I took the Doom3 sounds from.
+
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : Yes
+Music                   : No
+Graphics                : No
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : Yes (weapon and monster damage changes)
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : DOOM / DOOM2
+Single Player           : Designed for
+Cooperative 2-4 Player  : Not tested
+Deathmatch 2-4 Player   : Not tested
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 3 hours
+Editor(s) used          : None
+Known Bugs              : None
+May Not Run With        : Anything that isn't ZDoom based;
+                          Probably won't work with any other gameplay mods.
+Tested With             : GZDoom g3.5.1
+
+
+
+* Copyright / Permissions *
+
+Authors (MAY/may NOT) use the contents of this file as a base for
+modification or reuse.  Permissions have been obtained from original
+authors for any of their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file
+intact.  I have received permission from the original authors of any
+modified or included content in this file to allow further distribution.
