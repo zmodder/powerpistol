@@ -32,7 +32,7 @@ Description             : While I enjoy the vanilla gameplay, the pistol is
                           whose power is unchanged.
 
                           - The ZombieMan's gunshot now has its own
-			  sound effect to reflect its upgraded power.
+                          sound effect to reflect its upgraded power.
                           The change of sounds also serves as a
                           reminder that the mod is correctly loaded,
                           because the power upgrades are otherwise too
