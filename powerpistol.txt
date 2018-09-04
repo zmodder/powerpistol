@@ -4,7 +4,7 @@ Primary purpose         : No levels included
 ===========================================================================
 Title                   : Power Pistol
 Filename                : powerpistol-lite.pk3 powerpistol-full.pk3
-Release date            :
+Release date            : 2018-09-03
 Author                  : zmodder
 Email Address           : zmodder@outlook.com
 Description             : While I enjoy the vanilla gameplay, the pistol is
